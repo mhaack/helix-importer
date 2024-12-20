@@ -1,0 +1,104 @@
+{
+  "definition": {
+    "groups": [
+      {
+        "title": "Blocks",
+        "id": "blocks",
+        "components": [
+          {
+            "id": "actors",
+            "plugins": {
+              "xwalk": {
+                "page": {
+                  "resourceType": "core/franklin/components/block/v1/block",
+                  "template": {
+                    "model": "actors",
+                    "name": "actors"
+                  }
+                }
+              }
+            },
+            "title": "actors"
+          },
+          {
+            "id": "actors-item",
+            "plugins": {
+              "xwalk": {
+                "page": {
+                  "resourceType": "core/franklin/components/block/v1/block/item",
+                  "template": {
+                    "model": "actors-item",
+                    "name": "actors-item"
+                  }
+                }
+              }
+            },
+            "title": "actors-item"
+          }
+        ]
+      }
+    ]
+  },
+  "filters": [
+    {
+      "components": [
+        "actors-item"
+      ],
+      "id": "actors"
+    }
+  ],
+  "models": [
+    {
+      "fields": [
+        {
+          "component": "richtext",
+          "label": "Text",
+          "name": "text0",
+          "value": "",
+          "valueType": "string"
+        },
+        {
+          "component": "richtext",
+          "label": "Text",
+          "name": "text1",
+          "value": "",
+          "valueType": "string"
+        },
+        {
+          "component": "richtext",
+          "label": "Text",
+          "name": "text2",
+          "value": "",
+          "valueType": "string"
+        }
+      ],
+      "id": "actors-item"
+    },
+    {
+      "fields": [
+        {
+          "component": "select",
+          "label": "Options",
+          "name": "classes",
+          "options": [
+            {
+              "name": "default",
+              "value": ""
+            },
+            {
+              "name": "foo",
+              "value": "foo"
+            },
+            {
+              "name": "bar-large",
+              "value": "bar-large"
+            }
+          ],
+          "value": "",
+          "valueType": "string"
+        }
+      ],
+      "id": "actors"
+    }
+  ]
+}

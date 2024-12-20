@@ -1,0 +1,65 @@
+{
+  "filters": [],
+  "definition": {
+    "groups": [
+      {
+        "title": "Blocks",
+        "id": "blocks",
+        "components": [
+          {
+            "title": "simple-with-link",
+            "id": "simple-with-link",
+            "plugins": {
+              "xwalk": {
+                "page": {
+                  "resourceType": "core/franklin/components/block/v1/block",
+                  "template": {
+                    "name": "simple-with-link",
+                    "model": "simple-with-link"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "models": [
+    {
+      "id": "simple-with-link",
+      "fields": [
+        {
+          "component": "aem-content",
+          "label": "Link",
+          "name": "link0",
+          "valueType": "string"
+        },
+        {
+          "component": "select",
+          "label": "Link Type",
+          "name": "link0Type",
+          "valueType": "string",
+          "options" : [
+            { "name": "Default", "value": "default" },
+            { "name": "Primary", "value": "primary" },
+            { "name": "Secondary", "value": "secondary" }
+          ]
+        },
+        {
+          "component": "text",
+          "label": "Link Text",
+          "name": "link0Text",
+          "valueType": "string"
+        },
+        {
+          "component": "text",
+          "label": "Link Title",
+          "name": "link0Title",
+          "value": "",
+          "valueType": "string"
+        }
+      ]
+    }
+  ]
+}

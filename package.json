@@ -14,7 +14,8 @@
     "test:web:watch": "web-test-runner test/browser/*.test.js --node-resolve --watch",
     "test": "c8 mocha && npm run test:web",
     "semantic-release": "semantic-release",
-    "prepare": "npx husky install"
+    "prepare": "npx husky install",
+    "md2model": "node src/md2model.js --file"
   },
   "mocha": {
     "recursive": "true",
@@ -77,6 +78,7 @@
     "unist-util-remove": "4.0.0",
     "unist-util-select": "5.0.0",
     "unist-util-visit-parents": "6.0.1",
-    "xml-js": "1.6.11"
+    "xml-js": "1.6.11",
+    "yargs": "^17.7.2"
   }
 }

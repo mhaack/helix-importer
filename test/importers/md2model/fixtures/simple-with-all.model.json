@@ -1,0 +1,254 @@
+{
+  "filters": [],
+  "definition": {
+    "groups": [
+      {
+        "title": "Blocks",
+        "id": "blocks",
+        "components": [
+          {
+            "title": "simple-with-all",
+            "id": "simple-with-all",
+            "plugins": {
+              "xwalk": {
+                "page": {
+                  "resourceType": "core/franklin/components/block/v1/block",
+                  "template": {
+                    "name": "simple-with-all",
+                    "model": "simple-with-all"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "models": [
+    {
+      "fields": [
+        {
+          "component": "richtext",
+          "label": "Text",
+          "name": "content0_text1",
+          "value": "",
+          "valueType": "string"
+        },
+        {
+          "component": "text",
+          "label": "Title",
+          "name": "content0_title2",
+          "value": "",
+          "valueType": "string"
+        },
+        {
+          "component": "select",
+          "label": "Title Type",
+          "name": "content0_title2Type",
+          "options": [
+            {
+              "name": "H1",
+              "value": "h1"
+            },
+            {
+              "name": "H2",
+              "value": "h2"
+            },
+            {
+              "name": "H3",
+              "value": "h3"
+            },
+            {
+              "name": "H4",
+              "value": "h4"
+            },
+            {
+              "name": "H5",
+              "value": "h5"
+            },
+            {
+              "name": "H6",
+              "value": "h6"
+            }
+          ],
+          "valueType": "string"
+        },
+        {
+          "component": "richtext",
+          "label": "Text",
+          "name": "content0_text3",
+          "value": "",
+          "valueType": "string"
+        },
+        {
+          "component": "reference",
+          "label": "Image",
+          "name": "content0_image4",
+          "value": "",
+          "valueType": "string"
+        },
+        {
+          "component": "text",
+          "label": "Alt",
+          "name": "content0_image4Alt",
+          "value": "",
+          "valueType": "string"
+        },
+        {
+          "component": "aem-content",
+          "label": "Link",
+          "name": "content0_link5",
+          "valueType": "string"
+        },
+        {
+          "component": "select",
+          "label": "Link Type",
+          "name": "content0_link5Type",
+          "options": [
+            {
+              "name": "Default",
+              "value": "default"
+            },
+            {
+              "name": "Primary",
+              "value": "primary"
+            },
+            {
+              "name": "Secondary",
+              "value": "secondary"
+            }
+          ],
+          "valueType": "string"
+        },
+        {
+          "component": "text",
+          "label": "Link Text",
+          "name": "content0_link5Text",
+          "valueType": "string"
+        },
+        {
+          "component": "text",
+          "label": "Link Title",
+          "name": "content0_link5Title",
+          "value": "",
+          "valueType": "string"
+        },
+        {
+          "component": "richtext",
+          "label": "Text",
+          "name": "content0_text6",
+          "value": "",
+          "valueType": "string"
+        },
+        {
+          "component": "text",
+          "label": "Title",
+          "name": "title1",
+          "value": "",
+          "valueType": "string"
+        },
+        {
+          "component": "select",
+          "label": "Title Type",
+          "name": "title1Type",
+          "options": [
+            {
+              "name": "H1",
+              "value": "h1"
+            },
+            {
+              "name": "H2",
+              "value": "h2"
+            },
+            {
+              "name": "H3",
+              "value": "h3"
+            },
+            {
+              "name": "H4",
+              "value": "h4"
+            },
+            {
+              "name": "H5",
+              "value": "h5"
+            },
+            {
+              "name": "H6",
+              "value": "h6"
+            }
+          ],
+          "valueType": "string"
+        },
+        {
+          "component": "richtext",
+          "label": "Text",
+          "name": "text2",
+          "value": "",
+          "valueType": "string"
+        },
+        {
+          "component": "aem-content",
+          "label": "Link",
+          "name": "link3",
+          "valueType": "string"
+        },
+        {
+          "component": "select",
+          "label": "Link Type",
+          "name": "link3Type",
+          "options": [
+            {
+              "name": "Default",
+              "value": "default"
+            },
+            {
+              "name": "Primary",
+              "value": "primary"
+            },
+            {
+              "name": "Secondary",
+              "value": "secondary"
+            }
+          ],
+          "valueType": "string"
+        },
+        {
+          "component": "text",
+          "label": "Link Text",
+          "name": "link3Text",
+          "valueType": "string"
+        },
+        {
+          "component": "text",
+          "label": "Link Title",
+          "name": "link3Title",
+          "value": "",
+          "valueType": "string"
+        },
+        {
+          "component": "richtext",
+          "label": "Text",
+          "name": "text4",
+          "value": "",
+          "valueType": "string"
+        },
+        {
+          "component": "reference",
+          "label": "Image",
+          "name": "image5",
+          "value": "",
+          "valueType": "string"
+        },
+        {
+          "component": "text",
+          "label": "Alt",
+          "name": "image5Alt",
+          "value": "",
+          "valueType": "string"
+        }
+      ],
+      "id": "simple-with-all"
+    }
+  ]
+}
